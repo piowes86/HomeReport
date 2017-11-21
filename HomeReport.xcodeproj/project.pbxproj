@@ -45,6 +45,10 @@
 		597565F51FC42FE7004CB783 /* Home+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597565ED1FC42FE7004CB783 /* Home+CoreDataProperties.swift */; };
 		597565F61FC42FE7004CB783 /* SingleFamily+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597565EE1FC42FE7004CB783 /* SingleFamily+CoreDataClass.swift */; };
 		597565F71FC42FE7004CB783 /* SingleFamily+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597565EF1FC42FE7004CB783 /* SingleFamily+CoreDataProperties.swift */; };
+		597566031FC43EA4004CB783 /* HomeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597566021FC43EA4004CB783 /* HomeListTableViewCell.swift */; };
+		597566051FC43EEF004CB783 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597566041FC43EEF004CB783 /* HomeListViewController.swift */; };
+		597566071FC43F15004CB783 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597566061FC43F15004CB783 /* SummaryViewController.swift */; };
+		597566091FC43F2D004CB783 /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597566081FC43F2D004CB783 /* FilterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +92,10 @@
 		597565ED1FC42FE7004CB783 /* Home+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Home+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		597565EE1FC42FE7004CB783 /* SingleFamily+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingleFamily+CoreDataClass.swift"; sourceTree = "<group>"; };
 		597565EF1FC42FE7004CB783 /* SingleFamily+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SingleFamily+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		597566021FC43EA4004CB783 /* HomeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListTableViewCell.swift; sourceTree = "<group>"; };
+		597566041FC43EEF004CB783 /* HomeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListViewController.swift; sourceTree = "<group>"; };
+		597566061FC43F15004CB783 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		597566081FC43F2D004CB783 /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,8 @@
 		5975657F1FC42882004CB783 /* HomeReport */ = {
 			isa = PBXGroup;
 			children = (
+				597565F81FC43B18004CB783 /* view */,
+				597565F91FC43B1E004CB783 /* controller */,
 				5975659B1FC42ABC004CB783 /* images */,
 				5975659A1FC42AB1004CB783 /* entities */,
 				597565971FC42A96004CB783 /* model */,
@@ -185,6 +195,24 @@
 				597565A91FC42AC9004CB783 /* 1698000.jpg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		597565F81FC43B18004CB783 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				597566021FC43EA4004CB783 /* HomeListTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		597565F91FC43B1E004CB783 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				597566041FC43EEF004CB783 /* HomeListViewController.swift */,
+				597566061FC43F15004CB783 /* SummaryViewController.swift */,
+				597566081FC43F2D004CB783 /* FilterTableViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,11 +317,15 @@
 				597565831FC42882004CB783 /* ViewController.swift in Sources */,
 				597565F61FC42FE7004CB783 /* SingleFamily+CoreDataClass.swift in Sources */,
 				597565F01FC42FE7004CB783 /* Condo+CoreDataClass.swift in Sources */,
+				597566091FC43F2D004CB783 /* FilterTableViewController.swift in Sources */,
 				597565811FC42882004CB783 /* AppDelegate.swift in Sources */,
 				597565961FC428E4004CB783 /* CoreDataStack.swift in Sources */,
+				597566051FC43EEF004CB783 /* HomeListViewController.swift in Sources */,
 				597565F21FC42FE7004CB783 /* SaleHistory+CoreDataClass.swift in Sources */,
 				597565F41FC42FE7004CB783 /* Home+CoreDataClass.swift in Sources */,
+				597566031FC43EA4004CB783 /* HomeListTableViewCell.swift in Sources */,
 				597565F11FC42FE7004CB783 /* Condo+CoreDataProperties.swift in Sources */,
+				597566071FC43F15004CB783 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
